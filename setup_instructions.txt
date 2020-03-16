@@ -1,0 +1,30 @@
+1) Change to home directory
+	$ cd ~
+
+2) Make Directory for carla
+	$ mkdir CARLA_0.9.8/
+
+3) Download CARLA_0.9.8.tar.gz from https://github.com/carla-simulator/carla/releases
+4) Place in CARLA_0.9.8/ directory
+	$ mv CARLA_0.9.8.tar.gz ~/CARLA_0.9.8/
+
+5) Change to carla directory and uncompress .tar.gz file
+	$ cd ~/CARLA_0.9.8/
+	$ tar xvf CARLA_0.9.8.tar.gz
+
+**OPTIONAL STEP: Download AdditionalMaps_0.9.8.tar.gz from https://github.com/carla-simulator/carla/releases
+6) place into Import folder in CARLA_0.9.8/ and run ./ImportAssests.sh
+	$ mv ~/Downloads/AdditionalMaps_0.9.8.tar.gz ~/CARLA_0.9.8/Import
+	$ ./ImportAssests.sh
+
+**ROS-BRIDGE INSTALL
+7) Create directory for ros-bridge
+	$ mkdir -p ~/CARLA_0.9.8/ros-bridge/src
+	
+8) Clone custom ros-bridge-repo to src directory
+	$ cd ~/CARLA_0.9.8/ros-bridge/src
+	$ git clone https://github.com/carla-simulator/ros-bridge.git
+
+9) 
+
+
